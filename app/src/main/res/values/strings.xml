@@ -1,0 +1,31 @@
+<resources>
+
+    <string name="app_name">Easy Swedish</string>
+    
+    <string name="starting_content_lessions">Lessions</string>
+    <string name="starting_content_dictionary">Dictionary</string>
+    <string name="starting_content_flashcards">Flashcards</string>
+    <string name="starting_content_tests">Tests</string>
+    
+    <!-- ActionBar -->
+    <string name="action_bar_search">Search</string>
+    <string name="action_bar_info">Info</string>
+    <string name="app_info_text">This is an app to lear Swedish, more info coming soon</string>
+    <string name="action_bar_newspaper">Newspaper</string>
+	<string name="search_hint">Find word!</string>
+	
+	<string name="grammar_fragment">This is the fucking grammar fragment</string>
+	
+	<!-- ActionBar Spinner -->
+	<string-array name="planets_array">
+        <item>Home</item>
+        <item>Lectures</item>
+        <item>Grammar</item>
+        <item>Test</item>
+    </string-array>
+    
+	<!-- Lecture Content Tabs -->
+    <string name="tab_words">Words</string>
+    <string name="tab_numbers">Numbers</string>
+
+</resources>

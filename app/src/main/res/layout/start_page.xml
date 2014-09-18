@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Make a scrollable table, i.e put the table inside a scrollview. 
+		This might be good if i decide to add more options in the startpage,
+		or if the user has a low Res phone (which is unlikely, since i 
+		will only release this app for android 4+). But if i find a way to
+		made it work for android 3+ this scrollview might be necessary. -->
+		
+ <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="none"
+    android:layout_weight="1">
+
+		<TableLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:background="@color/white"
+		    android:layout_margin="10dp" 
+		    >
+		
+		    <TableRow
+		        android:id="@+id/tableRow1"
+		        android:layout_width="match_parent" 
+		        android:layout_height="wrap_content">
+		
+		        <ImageButton
+		            android:contentDescription="@string/starting_content_lessions"
+		            android:id="@+id/btnLectures"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:src="@drawable/ic_swedish_lecture1"
+		            android:background="@drawable/custom_button"
+		            android:layout_weight="1"  /> <!-- Puting this on both items in the row makes it stretch the whole lenth -->
+		
+		        <ImageButton
+		            android:contentDescription="@string/starting_content_lessions"
+		            android:id="@+id/btnGame"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:src="@drawable/ic_game"
+		            android:background="@drawable/custom_button"
+		            android:layout_weight="2"  />
+		
+		    </TableRow>
+		
+		    <TableRow
+		        android:id="@+id/tableRow2"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content" >
+
+		        <ImageButton
+		            android:id="@+id/btnOverview"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:background="@drawable/custom_button"
+		            android:contentDescription="@string/starting_content_lessions"
+		            android:src="@drawable/ic_expand" 
+		            android:layout_weight="1"/>
+		        
+		        <ImageButton
+		            android:id="@+id/imageButton3"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:background="@drawable/custom_button"
+		            android:contentDescription="@string/starting_content_lessions"
+		            android:src="@drawable/ic_graduate" 
+		            android:layout_weight="2" />
+		
+		    </TableRow>
+			 <TableRow>
+		    <ImageButton
+		        android:id="@+id/imageButton1"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:src="@drawable/ic_test"
+		        android:layout_weight="1" />
+		 	</TableRow>
+		</TableLayout>
+
+</ScrollView>
