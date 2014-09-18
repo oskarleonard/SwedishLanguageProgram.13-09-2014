@@ -43,7 +43,7 @@ public class GameMemory extends Fragment{
 	private Handler mHandler = new Handler();
 	MediaPlayer mediaPlayer;
 	
-	//thiiii
+
 
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
