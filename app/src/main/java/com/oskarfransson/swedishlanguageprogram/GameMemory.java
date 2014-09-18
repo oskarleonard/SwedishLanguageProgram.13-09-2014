@@ -42,7 +42,7 @@ public class GameMemory extends Fragment{
 	int attempts, pairsLeft, time;
 	private Handler mHandler = new Handler();
 	MediaPlayer mediaPlayer;
-	
+	//This is the newest comment try commit
 
 
 	@Override
